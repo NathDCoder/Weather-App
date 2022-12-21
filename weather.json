@@ -1,0 +1,44 @@
+{
+    "coord": {
+    "lon": -73.6854,
+    "lat": 41.259
+    },
+    "weather": [
+    {
+    "id": 800,
+    "main": "Clear",
+    "description": "clear sky",
+    "icon": "01d"
+    }
+    ],
+    "base": "stations",
+    "main": {
+    "temp": 278.6,
+    "feels_like": 276.81,
+    "temp_min": 277.66,
+    "temp_max": 279.76,
+    "pressure": 1001,
+    "humidity": 67
+    },
+    "visibility": 10000,
+    "wind": {
+    "speed": 2.24,
+    "deg": 196,
+    "gust": 2.68
+    },
+    "clouds": {
+    "all": 7
+    },
+    "dt": 1671296034,
+    "sys": {
+    "type": 2,
+    "id": 2044289,
+    "country": "US",
+    "sunrise": 1671279288,
+    "sunset": 1671312422
+    },
+    "timezone": -18000,
+    "id": 5123118,
+    "name": "Katonah",
+    "cod": 200
+    }
