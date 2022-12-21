@@ -40,8 +40,10 @@ const searchLocation = (event) => {
            {data.main ? <h1>{data.main.temp.toFixed()}°F</h1> : null}
           </div>
           <div className="description">
-            {data.weather ? <p>{data.weather[0].description}</p> : null}
-            
+           
+            {data.weather ? <p> 
+            <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`} /> 
+            {data.weather[0].description}</p> : null}
           </div>
           </div>
 
