@@ -42,13 +42,13 @@ const searchLocation = (event) => {
           <div className="description">
            
             {data.weather ? <p> 
-            <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`} /> 
+            <img src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`} alt="icon" /> 
             {data.weather[0].description}</p> : null}
           </div>
           </div>
 
 
-          {data.name != undefined && 
+          {data.name !== undefined && 
           <div className="bottom">
           <div className="feels">
             {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°F </p> : null}
